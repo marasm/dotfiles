@@ -1,0 +1,6 @@
+gui:
+  scrollPastBottom: true
+  mouseEvents: true
+  nerdFontsVersion: "2"
+  border: "rounded"
+  
