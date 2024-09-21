@@ -63,6 +63,13 @@ return {
           filter = { event = "msg_showmode" },
         },
       },
+      cmdline = {
+        format = {
+          cmdline = { pattern = "^:", icon = ">", lang = "vim" },
+          search_down = { kind = "search", pattern = "^/", icon = " ", lang = "regex" },
+          search_up = { kind = "search", pattern = "^%?", icon = " ", lang = "regex" },
+        }
+      },
       lsp = {
         hover = { enabled = false },
         signature = { enabled = false },
