@@ -40,8 +40,8 @@ plugins=(git gradle brew fzf golang)
 
 # Customize to your needs...
 unsetopt correct_all
-export GRADLE_HOME=/usr/local/opt/gradle
-export JAVA_HOME=/usr/local/opt/openjdk
+#export GRADLE_HOME=/usr/local/opt/gradle
+#export JAVA_HOME=/usr/local/opt/openjdk
 export YT_BATCH_UPLOADER_HOME=~/JAVA/YT_Batch_Uploader
 export CRC_HOME=~/JAVA/crc-macos-1.17.0-amd64
 export XDG_CONFIG_HOME="$HOME/.config"
